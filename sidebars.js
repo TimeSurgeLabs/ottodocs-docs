@@ -34,6 +34,7 @@ const sidebars = {
       label: "Usage",
       items: [
         "usage/otto",
+        "usage/otto_ask",
         "usage/otto_chat",
         "usage/otto_doc",
         "usage/otto_docs",

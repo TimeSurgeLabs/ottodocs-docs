@@ -1,4 +1,7 @@
-## otto ask
+---
+title: Ask
+description: Ask ChatGPT a question about a repo or file
+---
 
 Ask a question about a file or repo
 

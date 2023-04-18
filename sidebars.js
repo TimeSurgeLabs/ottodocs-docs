@@ -40,6 +40,7 @@ const sidebars = {
         "usage/otto_docs",
         "usage/otto_login",
         "usage/otto_prompt",
+        "usage/otto_setModel",
       ],
     },
   ],

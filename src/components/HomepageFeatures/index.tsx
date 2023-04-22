@@ -51,8 +51,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_chat_bot_re_e2gj.svg").default,
     description: (
       <>
-        Utilizes ChatGPT-3.5 (and ChatGPT-4 when available) to generate accurate
-        and useful documentation for your code.
+        Utilizes OpenAI's ChatGPT API to generate accurate and useful
+        documentation for your code.
       </>
     ),
   },

@@ -41,8 +41,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/go.svg").default,
     description: (
       <>
-        OttoDocs is written in Go, a modern programming language that offers
-        performance and reliability.
+        Fast, efficient, with zero dependencies. Available for Windows, macOS
+        (M1+Intel), and Linux.
       </>
     ),
   },

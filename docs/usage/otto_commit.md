@@ -16,9 +16,12 @@ otto commit [flags]
 ### Options
 
 ```
+  -a, --auto           automatically add all and commit with the generated message
   -c, --conventional   use conventional commits
   -h, --help           help for commit
   -p, --plain          no output formatting
+      --push           automatically push to the current branch
+  -v, --verbose        verbose output
 ```
 
 ### SEE ALSO

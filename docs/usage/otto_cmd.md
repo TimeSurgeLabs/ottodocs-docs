@@ -19,6 +19,7 @@ otto cmd [flags]
 ```
   -h, --help              help for cmd
   -q, --question string   The prompt to use for the chat session
+  -v, --verbose           verbose output
 ```
 
 ### SEE ALSO

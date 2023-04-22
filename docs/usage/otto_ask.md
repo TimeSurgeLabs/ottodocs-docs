@@ -21,6 +21,7 @@ otto ask [flags]
   -n, --ignore string      path to .gptignore file
   -g, --ignore-gitignore   ignore .gitignore file
   -q, --question string    The question to ask
+  -v, --verbose            verbose output
 ```
 
 ### SEE ALSO

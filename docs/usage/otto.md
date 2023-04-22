@@ -20,7 +20,7 @@ Code documentation made easy using GPT.
 * [otto ask](otto_ask.md)	 - Ask a question about a file or repo
 * [otto chat](otto_chat.md)	 - Ask ChatGPT a question from the command line.
 * [otto cmd](otto_cmd.md)	 - Have ChatGPT suggest a command to run next
-* [otto commit](ott8o_commit.md)	 - Generates a commit message from the git diff
+* [otto commit](otto_commit.md)	 - Generates a commit message from the git diff
 * [otto docs](otto_docs.md)	 - Document a repository of files
 * [otto login](otto_login.md)	 - Add an API key to your configuration
 * [otto prompt](otto_prompt.md)	 - Generates a ChatGPT prompt from a given Git repo

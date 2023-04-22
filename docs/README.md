@@ -1,8 +1,8 @@
-# OttoDocs 🦦
+# What is OttoDocs?
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-OttoDocs is a command-line tool written in Go that uses GPT-3 (and GPT-4 once the API is available) to automatically generate or add inline and markdown documentation for your code. It can parse a git repository or an individual file and create markdown documentation or add inline comments. The tool requires an [OpenAI API key](https://platform.openai.com/account/api-keys) to function.
+OttoDocs is a command-line tool written in Go that uses ChatGPT to automatically generate or add inline and markdown documentation for your code. It can parse a git repository or an individual file and create markdown documentation or add inline comments. The tool requires an [OpenAI API key](https://platform.openai.com/account/api-keys) to function.
 
 OttoDocs utilizes the `just` command runner for building and running tasks, making maintaining the project easier. If you do not have `just` installed, see [here](https://just.systems/man/en/chapter_5.html) for installation methods.
 
@@ -16,7 +16,7 @@ There are two methods to install OttoDocs:
 ```sh
 git clone https://github.com/chand1012/ottodocs.git
 cd ottodocs
-just build # will build to bin/ottodocs
+just build # will build to bin/otto
 # or
 just install # will build & copy to $GOPATH/bin. 
 ```
@@ -55,6 +55,24 @@ Or for a single file, you can run:
 
 ```sh
 otto doc -f <path to file>
+```
+
+Ask a question about a repo:
+
+```sh
+otto ask . -q "What does LoadFile do differently than ReadFile?"
+```
+
+Generate a commit message:
+
+```sh
+otto commit
+```
+
+Ask it about commands:
+
+```sh
+otto cmd -q "what is the command to add a remote?"
 ```
 
 ## Usage

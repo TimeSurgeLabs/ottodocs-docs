@@ -30,6 +30,13 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
+    title: "More Than Just Docs",
+    Svg: require("@site/static/img/undraw_analysis_dq08.svg").default,
+    description: (
+      <>Generate documentation, commit messages, command line help, and more.</>
+    ),
+  },
+  {
     title: "Written in Go",
     Svg: require("@site/static/img/go.svg").default,
     description: (

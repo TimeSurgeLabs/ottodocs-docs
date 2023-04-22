@@ -28,8 +28,8 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`OttoDocs 🦦`}
-      description="CLI tool for AI generated documentation."
+      title={`CLI tool for AI generated coding help.`}
+      description="Generate docs, commit messages, commands, and more!"
     >
       <HomepageHeader />
       <main>

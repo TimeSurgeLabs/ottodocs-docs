@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Ottodocs",
-  tagline: "Automated Inline & Markdown Code Documentation",
+  title: "Ottodocs 🦦",
+  tagline: "CLI tool for AI generated coding help.",
   favicon: "/favicon.ico",
 
   // Set the production url of your site here
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "chand1012", // Usually your GitHub org/user name.
-  projectName: "ottodocs", // Usually your repo name.
+  projectName: "ottodocs-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -89,7 +89,6 @@ const config = {
         ],
       },
       footer: {
-        style: "dark",
         links: [
           {
             title: "Docs",

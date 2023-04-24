@@ -21,7 +21,8 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--primary button--lg margin-left--sm"
-            to="/docs"
+            to="https://github.com/chand1012/ottodocs"
+            target="_blank"
           >
             <IconBrandGithub
               style={{

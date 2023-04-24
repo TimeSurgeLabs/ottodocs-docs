@@ -1,8 +1,6 @@
 # What is OttoDocs?
 
-OttoDocs is a command-line tool written in Go that uses ChatGPT to automatically generate or add inline and markdown documentation for your code. It can parse a git repository or an individual file and create markdown documentation or add inline comments. The tool requires an [OpenAI API key](https://platform.openai.com/account/api-keys) to function.
-
-OttoDocs utilizes the `just` command runner for building and running tasks, making maintaining the project easier. If you do not have `just` installed, see [here](https://just.systems/man/en/chapter_5.html) for installation methods.
+Ottodocs is a command-line tool built in Go that utilizes OpenAI's ChatGPT API to generate commit messages, pull requests, answers to questions, and even shell commands based on input prompts and code context. It helps developers automate various parts of their development workflow using AI. The tool requires an [OpenAI API key](https://platform.openai.com/account/api-keys) to function.
 
 ## Installation
 
@@ -10,6 +8,14 @@ There are two methods to install OttoDocs:
 
 1. **Precompiled binaries:** Download the precompiled binaries from the [GitHub releases tab](https://github.com/chand1012/ottodocs/releases).
 2. **Build from source:** Clone the repo and build the binary by running the following commands:
+
+### Installing Precompiled Binaries
+
+Simply download the binary for your platform from the [GitHub releases tab](https://github.com/chand1012/ottodocs/releases) and place it in your `$PATH` .
+
+### Building From Source
+
+OttoDocs utilizes the `just` command runner for building and running tasks, making maintaining the project easier. If you do not have `just` installed, see [here](https://just.systems/man/en/chapter_5.html) for installation methods.
 
 ```sh
 git clone https://github.com/chand1012/ottodocs.git
@@ -90,4 +96,4 @@ otto cmd -q "what is the command to add a remote?"
 
 ## Usage
 
-For detailed usage instructions, please refer to the [documentation](/docs/usage/otto).
+For detailed usage instructions, please refer to the [documentation](https://ottodocs.chand1012.dev/docs/usage/otto).

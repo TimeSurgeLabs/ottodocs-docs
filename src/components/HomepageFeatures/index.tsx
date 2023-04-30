@@ -10,31 +10,24 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Singular Files or Repositories",
-    Svg: require("@site/static/img/undraw_folder_files_re_2cbm.svg").default,
-    description: (
-      <>
-        OttoDocs works seamlessly with individual files or entire repositories,
-        making it easy to generate documentation for any project.
-      </>
-    ),
-  },
-  {
-    title: "Major Programming Languages",
+    title: "Generate Code",
     Svg: require("@site/static/img/undraw_code_typing_re_p8b9.svg").default,
     description: (
       <>
-        Supports most major programming languages, ensuring your project is
-        covered, no matter the language.
+        Ottodocs can generate code directly to your file system, meaning less
+        time copying and pasting, and more time coding.
       </>
     ),
   },
   {
-    title: "More Than Just Docs",
+    title: "ChatGPT CLI",
     Svg: require("@site/static/img/undraw_analysis_dq08.svg").default,
-    description: (
-      <>Generate documentation, commit messages, command line help, and more.</>
-    ),
+    description: <>Ask otto questions directly from your command line.</>,
+  },
+  {
+    title: "Docs, of course!",
+    Svg: require("@site/static/img/undraw_folder_files_re_2cbm.svg").default,
+    description: <>Generate inline or markdown documentation.</>,
   },
   {
     title: "Written in Go",

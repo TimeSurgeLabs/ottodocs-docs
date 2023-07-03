@@ -11,15 +11,16 @@ const config = {
   favicon: "/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://ottodocs.chand1012.dev",
+  url: "https://ottodocs.timesurgelabs.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "chand1012", // Usually your GitHub org/user name.
+  organizationName: "TimeSurgeLabs", // Usually your GitHub org/user name.
   projectName: "ottodocs-docs", // Usually your repo name.
+  deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -31,6 +32,7 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+  trailingSlash: true,
 
   presets: [
     [
@@ -42,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/chand1012/ottodocs/tree/docs/packages/create-docusaurus/templates/shared/",
+            "https://github.com/TimeSurgeLabs/ottodocs/tree/docs/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
@@ -77,12 +79,12 @@ const config = {
             label: "Docs",
           },
           {
-            href: "https://github.com/chand1012/ottodocs",
+            href: "https://github.com/TimeSurgeLabs/ottodocs",
             label: "GitHub",
             position: "right",
           },
           {
-            href: "https://github.com/chand1012/ottodocs/issues",
+            href: "https://github.com/TimeSurgeLabs/ottodocs/issues",
             label: "Issues",
             position: "right",
           },
@@ -108,7 +110,7 @@ const config = {
             items: [
               {
                 label: "Discussions",
-                href: "https://github.com/chand1012/ottodocs/discussions",
+                href: "https://github.com/TimeSurgeLabs/ottodocs/discussions",
               },
               // {
               //   label: "Discord",
@@ -116,7 +118,7 @@ const config = {
               // },
               {
                 label: "Twitter",
-                href: "https://twitter.com/Chand1012Dev",
+                href: "https://twitter.com/timesurgelabs",
               },
             ],
           },
@@ -125,16 +127,16 @@ const config = {
             items: [
               {
                 label: "Blog",
-                href: "https://blog.chand1012.dev",
+                href: "https://dev.to/timesurgelabs",
               },
               {
                 label: "GitHub",
-                href: "https://github.com/chand1012/ottodocs",
+                href: "https://github.com/TimeSurgeLabs/ottodocs",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Chandler Lofland. Built with Docusaurus. Logo Licensed from OpenMoji under CC BY 4.0.`,
+        copyright: `Copyright © ${new Date().getFullYear()} TimeSurge Labs. Built with Docusaurus. Logo Licensed from OpenMoji under CC BY 4.0.`,
       },
       prism: {
         theme: lightCodeTheme,

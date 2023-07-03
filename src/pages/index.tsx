@@ -21,7 +21,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--primary button--lg margin-left--sm"
-            to="https://github.com/chand1012/ottodocs"
+            to="https://github.com/TimeSurgeLabs/ottodocs"
             target="_blank"
           >
             <IconBrandGithub
